@@ -1,11 +1,14 @@
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 @NgModule({
-  declarations: [],
-  imports: [ 
-  ],
   exports: [
+    CommonModule,
+    FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
 })
 export class sharedLibModule {}

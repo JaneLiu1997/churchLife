@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 
 import { MainComponent } from './layouts/main/main.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
+import { ChurchLifeCoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
+    ChurchLifeCoreModule,
     HttpClientModule,
     SharedModule,
   ],
