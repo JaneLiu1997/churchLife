@@ -1,0 +1,105 @@
+.d-fl {
+  display: flex;
+}
+
+.d-inb {
+  display: inline-block;
+}
+
+.d-infl {
+  display: inline-flex;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+.fl-w {
+  flex-wrap: wrap;
+}
+
+.fl-ai-c {
+  align-items: center;
+}
+
+.fl-ai-fe {
+  align-items: flex-end;
+}
+
+.fl-jc-fs {
+  justify-content: flex-start;
+}
+
+.fl-jc-c {
+  justify-content: center;
+}
+
+.fl-jc-e {
+  justify-content: end;
+}
+
+.fl-jc-fe {
+  justify-content: flex-end;
+}
+
+.fl-jc-sb {
+  justify-content: space-between;
+}
+
+.fl-jc-sa {
+  justify-content: space-around;
+}
+
+.fl-11a {
+  flex: 1 1 auto;
+}
+
+.fl-00a {
+  flex: 0 0 auto;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+// width
+@for $w from 1 through 100 {
+  .w-#{$w} {
+    width: #{$w * 1%};
+  }
+}
+
+// height
+@for $h from 1 through 20 {
+  .h-#{$h * 5} {
+    height: #{$h * 5%};
+  }
+
+  .min-h-#{$h * 5} {
+    min-height: #{$h * 5%};
+  }
+}

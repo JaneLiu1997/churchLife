@@ -1,0 +1,15 @@
+.fw-b {
+  font-weight: bold;
+}
+
+@for $size from 12 through 40 {
+  .fs-#{$size} {
+    font-size: #{$size} + 'px';
+  }
+}
+
+@for $weight from 1 through 8 {
+  .fw-#{$weight * 100} {
+    font-weight: #{$weight * 100};
+  }
+}

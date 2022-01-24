@@ -1,0 +1,53 @@
+.m-none {
+  margin: 0;
+}
+
+.p-none {
+  padding: 0;
+}
+
+// margin
+@for $space from 1 through 50 {
+  .mg-#{$space} {
+    margin: #{$space} + 'px';
+  }
+
+  .mg-r-#{$space} {
+    margin-right: #{$space} + 'px';
+  }
+
+  .mg-l-#{$space} {
+    margin-left: #{$space} + 'px';
+  }
+
+  .mg-t-#{$space} {
+    margin-top: #{$space} + 'px';
+  }
+
+  .mg-b-#{$space} {
+    margin-bottom: #{$space} + 'px';
+  }
+}
+
+// padding
+@for $space from 1 through 50 {
+  .pd-#{$space * 5} {
+    padding: #{$space * 5} + 'px';
+  }
+
+  .pd-r-#{$space * 5} {
+    padding-right: #{$space * 5} + 'px';
+  }
+
+  .pd-l-#{$space * 5} {
+    padding-left: #{$space * 5} + 'px';
+  }
+
+  .pd-t-#{$space * 5} {
+    padding-top: #{$space * 5} + 'px';
+  }
+
+  .pd-b-#{$space * 5} {
+    padding-bottom: #{$space * 5} + 'px';
+  }
+}

@@ -1,0 +1,9 @@
+@import './base/variable';
+
+body {
+  background-color: #f4eeeb;
+  font-size: 14px;
+  font-family: $fontFamily;
+  padding: 0;
+  margin: 0;
+}

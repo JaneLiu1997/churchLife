@@ -1,0 +1,11 @@
+
+// https://material.angular.io/guide/theming
+@import '~@angular/material/prebuilt-themes/indigo-pink.css'; // angular material pre-built themes
+
+@import './global.scss';
+@import 'base/color';
+@import 'base/common';
+@import 'base/decoration';
+@import 'base/layouts';
+@import 'base/space';
+@import 'base/variable';
